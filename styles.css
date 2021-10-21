@@ -1,0 +1,38 @@
+body{
+    margin: 0em;
+    padding: 0em;
+}
+
+nav{
+    background: #403F4C;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    font-size: 0.75em;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 0.3em;
+    border: none;
+}
+
+.btn-cta{
+    background: #E84855;
+    color: white;
+}
+
+.btn-alt{
+    background: #F9DC5C;
+    color: #403F4C;
+}
+
+.grid-container{
+    background: red;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column-gap: 1em;
+}
